@@ -77,6 +77,20 @@
 
 
 			// 1, 4 Zach
+			const zachx = 1 * size
+			const zachy = 4 * size
+			ctx.beginPath()
+			ctx.arc(zachx + size / 2, zachy + size / 2, 30, 180, Math.PI)
+			ctx.lineWidth = 3
+			ctx.strokeStyle = '#003399'
+			ctx.stroke()
+
+            ctx.beginPath()
+            ctx.moveTo(zachx, zachy)
+            ctx.lineTo(zachx + 30, zachy + 60)
+            ctx.lineTo(zachx - 60, zachy + 60)
+            ctx.lineTo(zachx, zachy)
+            ctx.stroke()
 
 
 			// 2, 0 Dino 
